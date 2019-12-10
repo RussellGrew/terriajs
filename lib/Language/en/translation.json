@@ -40,6 +40,10 @@
     "description": "Drag outer ring: rotate view.\nDrag inner gyroscope: free orbit.\nDouble-click: reset view.\nTIP: You can also free orbit by holding the CTRL key and dragging the map.",
     "title": "Click and drag to rotate the camera"
   },
+  "historyControl": {
+    "back": "Back to previous view",
+    "forward": "Forward to next view"
+  },
   "AR": {
     "title": "Experimental Feature: Augmented Reality",
     "experimentalFeatureMessage": "Augmented Reality mode is currently in beta. This mode is only designed for use on the latest high end mobile devices. <br /><br />WARNING: This mode can consume a lot of data, please be mindful of data usage charges from your network provider. <br /><br />The accuracy of this mode depends on the accuracy of your mobile devices internal compass.",
@@ -65,7 +69,7 @@
     "browserPrint": "For better printed results, please use {{appName}}'s Print button instead of your web browser's print feature.",
     "shortLinkShortening": "Shortening...",
     "shortLinkError": "An error occurred while attempting to shorten the URL.  Please check your internet connection and try again.",
-    "localDataNote": "<0><0>Note:</0></0><1>The following data sources will NOT be shared because they include data from this local system. To share these data sources, publish their data on a web server and <2>add them using a url</2>.</1>",
+    "localDataNote": "<0><3>Note:</3></0><1>The following data sources will NOT be shared because they include data from this local system. To share these data sources, publish their data on a web server and <2>add them using a url</2>.</1>",
     "generatingUrl": "Generating share URL...",
     "printTitle": "Print Map",
     "printExplanation": "Open a printable version of this map.",
@@ -174,7 +178,7 @@
     "latLon": "Lat / Lon "
   },
   "welcomeMessage": {
-    "title": "Spatial data made <2>easy.</2>",
+    "title": "Spatial data made <1>easy.</1>",
     "WelcomeMessage": "Access rich spatial data from multiple data sources, all from one convenient location.",
     "WelcomeMessagePrimaryBtn": "Explore Data",
     "WelcomeMessageSecondaryBtn": "Take a tour",
